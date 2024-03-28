@@ -1,1 +1,5 @@
-//sample file
+ const UseFetch = (url) => {
+    
+}
+
+export default UseFetch
