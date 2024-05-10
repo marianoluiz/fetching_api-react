@@ -4,7 +4,9 @@
     list-style: none;
     padding: 0;
   }
-  
+  .usefetch_heading{
+    text-align: center;
+  }
  .list_data {
     margin-bottom: 20px;
     padding: 10px;

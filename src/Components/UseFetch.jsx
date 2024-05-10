@@ -1,4 +1,4 @@
- const UseFetch = (url) => {
+const UseFetch = (url) => {
     
 }
 
