@@ -4,8 +4,17 @@ import './FetchData.css'
 
 const FetchData = () => {
 
+
+    /* put in the array the data */
+    /* useFetch is a component aka custom hook */
+
+    /* Use array to store the obj */
     const [data] = UseFetch('https://api.npoint.io/9045c260b1565daa9e15');
+    /* displays the data inside the array */
     console.log(data);
+
+    /* data looks like this: {}, {}, {}, {} */
+
 
   return (
     <>
@@ -13,7 +22,6 @@ const FetchData = () => {
         <h1 className='usefetch_heading'>Use Fetch Custom Hook</h1>
         {data && data.map((e)=>(
             <>
-                
             <li className='list_data'>
                 <h3>{e.name}</h3>
                 <img src={e.image}></img>
